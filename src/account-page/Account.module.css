@@ -1,0 +1,172 @@
+.Account{
+    width: 1070px;
+    height: 175px;
+    background-color: #435c70;
+    padding: 30px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-bottom: 30px;
+}
+.Account h5{
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 11px;
+}
+.select{
+    width: 100%;
+    padding: 12px;
+    background-color: #4e657a;
+    color: #9fabc1;
+    font-size: 16px;
+}
+.accountImg{
+    max-width: 354px;
+    width: 37%;
+    padding:3px 38px ;
+    background-color: #435c70;
+    height: 450px;
+    margin-bottom: 30px;
+    color: white;
+}
+.accounForm{
+    max-width: 584px;
+    width: 63%;
+    height: 480px;
+    padding: 18px 40px;
+    background-color: #435c70;
+    margin-bottom: 30px;
+}
+.formContent{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 11px;
+}
+.form{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    color: white;
+}
+input{
+    padding: 18px 59px;
+    border-radius: 0;
+    background-color: #54657d;
+    color: #fff;
+    border: 0
+}
+.btn1{
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+    padding: 17px 71px;
+    margin-top: 33px;
+    margin-left: 12px;
+}
+.btn2{
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+    padding: 16px 71px;
+    margin-top: 33px;
+    margin-left: 12px;
+    width: 581px;
+}
+.formdiv h2{
+    color: white;
+}
+    .imgDiv{
+        width: 351px;
+    height: 254px
+    }
+
+    .deletePic{
+        margin-top: -144px;
+    z-index: 5;
+    padding: -10px;
+    border-radius: 50%;
+    /* background-color: rgba(57, 78, 100, 0.7); */
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: none;
+    transition: all 0.2s ease;
+    position: absolute;
+    /* left: 50%; */
+    /* top: 50%; */
+    margin-left: 148px;
+    color: white;
+    font-size: 24px;
+    }
+    .imageDiv:hover .deletePic{
+        display: inline-block;
+    }
+
+.loadbtn{
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+    padding: 17px 71px;
+    /* margin: 37px; */
+    margin-top: 48px;
+    margin-left: 21px;
+}
+.formMainDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 980px) {
+    .Account{
+        width: 80%;
+        padding: 15px;
+    }
+    .formMainDiv{
+        display: block;
+    }
+    .accountImg{
+    width: 80%;
+    padding: 1px 12px;
+    background-color: #435c70;
+    height: 450px;
+    margin-bottom: 30px;
+    color: white;
+    margin-left: 25px;
+    }
+    .imgDiv{
+        width: 300px;
+    height: 236px;
+    margin-left: 11px;
+    }
+    .loadbtn{
+        padding: 17px 51px;
+    /* margin: 37px; */
+    margin-top: 48px;
+    margin-left: 21px;
+    width: 90%;
+    }
+    .accounForm{
+    width: 65%;
+    height: 678px;
+    padding: 18px 40px;
+    background-color: #435c70;
+    margin-bottom: 30px;
+    margin-left: 26px;
+    }
+    .btn2{
+    padding: 16px 63px;
+    margin-top: 33px;
+    margin-left: 12px;
+    width: 284px;
+    }
+}

@@ -1,0 +1,40 @@
+.Login{
+    background-color: #435c70;
+    width: 375px;
+    height: 450px;
+    margin-top: 63px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+.welcome{
+    text-align: center;
+    color: white;
+}
+.inputbar{
+   background-color: #54657d;
+   border: none;
+   width: 85%;
+   padding: 17px 24px;
+}
+button{
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+    padding: 17px;
+    margin-top: 25px;
+    width: 97%;
+}
+.btn{
+    margin-top: 20px;
+}
+@media screen and (max-width: 900px){
+    .Login{
+        width: 270px;
+    height: 408px;
+    }
+}

@@ -1,0 +1,207 @@
+.dasbhoardPage {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-top: 49px; */
+  margin-left: 37px;
+}
+.welcome {
+  width: 25%;
+  height: 11px;
+  /* text-align: center; */
+  align-items: center;
+  padding: 0;
+  color: white;
+}
+.latestHit {
+  width: 45%;
+  padding: 25px;
+}
+.performance {
+  width: 45%;
+  padding: 25px;
+}
+.storageChart {
+  width: 45%;
+  padding: 25px;
+}
+.productTable {
+  background-color: #50697f;
+  color: #fff;
+  font-size: 85%;
+  margin-bottom: 0;
+  max-height: 450px;
+  min-height: 725px;
+  overflow-y: scroll;
+}
+.tableHead {
+  background-color: #486177;
+  color: #fff;
+}
+tr {
+  font-weight: 600;
+}
+.tablerow {
+  transition: all 0.2s ease;
+}
+.tableData {
+  text-align: left;
+  padding: 15px 30px;
+  font-size: 14px;
+  border-collapse: collapse;
+  border-top: 1px solid #415a70;
+  /* background-color: #486177; */
+}
+
+.th {
+  border-bottom: 0;
+  text-align: left;
+  padding: 10px 17px;
+  font-size: 14px;
+  border-collapse: collapse;
+  border-top: 1px solid #415a70;
+  vertical-align: middle;
+}
+.productTableDiv {
+  overflow-y: scroll;
+  max-height: 550px;
+  margin-bottom: 15px;
+}
+.mainTableDiv {
+  background-color: #435c70;
+  padding: 40px;
+  box-shadow: 1px 1px 5px 0 #455c71;
+  width: 81%;
+  height: 100%;
+  max-height: 450px;
+  min-height: 580px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.noteHeading {
+  color: white;
+  margin-top: -12px;
+}
+.notification {
+  background-color: #435c70;
+  padding: 25px;
+  box-shadow: 1px 1px 5px 0 #455c71;
+  width: 86%;
+  height: 100%;
+  max-height: 381px;
+  min-height: 138px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.orderHeading {
+  color: white;
+  font-weight: 600;
+  margin-top: -12px;
+}
+
+.Image {
+  border-radius: 50% !important;
+  width: 80px;
+  height: 80px;
+}
+.imageDiv {
+  width: 80px;
+  height: 80px;
+  background-color: #aaa;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.list {
+  display: flex;
+  width: 457px;
+  height: 80px;
+  padding: 15px;
+  background-color: #4e657a;
+  color: #fff;
+  font-size: 95%;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 980px) {
+  .welcome {
+    width: 100%;
+    height: 11px;
+    text-align: center;
+  }
+  .dasbhoardPage {
+    margin-left: 63px;
+  }
+  .latestHit {
+    width: 100%;
+    margin-left: -32px;
+    margin-top: 28px;
+    padding: 0;
+  }
+  .performance {
+    width: 100%;
+    margin-left: -32px;
+    padding: 0;
+  }
+  .storageChart {
+    width: 100%;
+    margin-left: -32px;
+    padding: 0;
+  }
+  .notification {
+    padding: 17px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    width: 100%;
+    height: 100%;
+    max-height: 296px;
+    min-height: 138px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-left: -33px;
+  }
+  .noteHeading {
+    margin-top: -12px;
+    font-size: 15px;
+  }
+  .list {
+    width: 300px;
+    height: 80px;
+    padding: 0;
+    font-size: 74%;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  .imageDiv {
+    width: 50px;
+    height: 50px;
+  }
+  .Image {
+    width: 50px;
+    height: 50px;
+  }
+  .mainTableDiv {
+    padding: 19px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    width: 89%;
+    height: 100%;
+    max-height: 450px;
+    min-height: 472px;
+    margin-bottom: 40px;
+    /* margin-top: 30px; */
+    margin-left: -32px;
+  }
+  .orderHeading {
+    margin-top: -12px;
+    font-size: 13px;
+  }
+  .productTableDiv {
+    max-height: 455px;
+  }
+  .tableData {
+    padding: 0px 29px;
+    font-size: 11px;
+  }
+  .th {
+    padding: 2px 18px;
+    font-size: 12px;
+  }
+}
